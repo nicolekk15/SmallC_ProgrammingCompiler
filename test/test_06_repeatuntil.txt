@@ -1,0 +1,14 @@
+{
+	/* testfile: 06 repeat-until */
+
+	int x,y;
+
+	x=0;
+	y=7;
+	repeat
+	{
+		x = x + 2;
+		y--;
+	} until (x > y);
+	write(x);
+}

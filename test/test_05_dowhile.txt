@@ -1,0 +1,20 @@
+{
+	/* testfile: 05 do-while */
+
+ 	const a=2;
+ 	int x,i;
+ 
+ 	x=a;
+ 	i=0;
+ 	do{
+		write(i);
+    		i++;
+    		x++;
+    		if (x==0)
+    		{
+       		 	write(x);
+        			break;
+   		}
+  	} while(i<5);
+  	write(x);
+}

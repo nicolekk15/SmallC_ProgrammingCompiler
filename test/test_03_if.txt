@@ -1,0 +1,18 @@
+{
+	/* testfile: 03 if-else */
+
+	int x;
+
+ 	x=1;
+ 	if (x != 1)
+ 	{
+   		x=2;
+  		write(x);  
+	 }
+ 	else
+ 	{
+ 		x=3;
+    		write(x);  
+ 	}
+	write(x);
+}

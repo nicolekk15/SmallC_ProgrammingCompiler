@@ -1,0 +1,9 @@
+{
+	/* testfile: 04 xor */
+
+	int x;
+
+	x=-3;
+	x=x xor 7;
+	write(x);
+}

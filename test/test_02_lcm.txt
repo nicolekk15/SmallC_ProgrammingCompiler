@@ -1,0 +1,18 @@
+{
+	/* testfile: 02 lcm */
+
+	int m,n,x,y,temp,lcm,gcd;
+	
+	read(m,n);
+	x = m;
+	y = n;
+	while(y)
+	{
+		temp = x % y;
+		x = y;
+		y = temp;
+	}
+	gcd = x + y;
+	lcm = m * n / gcd;
+	write(lcm);
+}
