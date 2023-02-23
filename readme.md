@@ -110,11 +110,11 @@
 
 - 完整Qt项目引用include关系图
 
-  ![img](file:///D:/KKbag/Courses/CS/CTE/hw/html/mainwindow_8cpp__incl.png)
+  ![img](source/mainwindow_8cpp__incl.png)
 
 - smallC编译器函数调用关系图
 
-  ![img](file:///D:/KKbag/Courses/CS/CTE/hw/html/mainwindow_8cpp_a22e51cddb31f576221e285e4ad7953d5_cgraph.png)
+  ![img](source/mainwindow_8cpp_a22e51cddb31f576221e285e4ad7953d5_cgraph.png)
 
 #### 2.1.4 程序总体结构
 
@@ -432,7 +432,7 @@ void block(int lev, int tx, bool* fsys)
 }
 ```
 
-![img](file:///D:/KKbag/Courses/CS/CTE/hw/html/mainwindow_8cpp_a7d0ba47a8cc3311ea90c6b7361002f07_cgraph.png)
+![img](source/mainwindow_8cpp_a7d0ba47a8cc3311ea90c6b7361002f07_cgraph.png)
 
 ### 5.3 中间代码生成
 
@@ -792,7 +792,7 @@ void enter(enum object k, int* ptx, int lev, int* pdx)
 }
 ```
 
-![img](file:///D:/KKbag/Courses/CS/CTE/hw/html/mainwindow_8cpp_ab396425c2a3415e283ed39a7e8d6aa0f_cgraph.png)
+![img](source/mainwindow_8cpp_ab396425c2a3415e283ed39a7e8d6aa0f_cgraph.png)
 
 ## 6 全局数据结构、常量和变量
 
